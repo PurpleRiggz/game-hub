@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-axios.create({
+export default axios.create({
+  baseURL: 'https://api.rawg.io/api',
   params: {
-    Client_ID: 'ajcgiegstqsqrrwx4jo5fg09l0gfvz',
-    Authorization: 'Bearer k5z3hy3ikluidxskd3ii6cl8jrp01c'
+    key: '20dbafbabb1144c8a11151e01e2fe91c'
   }
 })
